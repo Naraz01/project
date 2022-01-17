@@ -1,0 +1,18 @@
+.company {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.company-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.company-items {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=bloggers.css.map */

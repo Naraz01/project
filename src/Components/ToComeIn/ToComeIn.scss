@@ -1,0 +1,21 @@
+.toComeIn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  svg {
+      margin-right: 10px;
+  }
+  span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &:hover {
+    span {
+      color: #e25a76;
+    }
+    svg {
+      fill: #e25a76;
+    }
+  }
+}

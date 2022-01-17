@@ -1,0 +1,262 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "fullname": "Checking",
+      "username": "the",
+      "city": "Robertson",
+      "direction": "it",
+      "avatarUrl": "https://source.unsplash.com/random/100x103",
+      "friends": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "fullname": "network",
+      "username": "cables",
+      "city": "sssss",
+      "direction": "web",
+      "avatarUrl": "https://source.unsplash.com/random/100x104",
+      "friends": [
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "fullname": "and",
+      "username": "router",
+      "city": "sssss",
+      "direction": "web",
+      "avatarUrl": "https://source.unsplash.com/random/100x104",
+      "friends": []
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "11 Не следует, однако, забывать о том, что выбранный нами инновационный путь создаёт предпосылки",
+      "text": "11 Не следует, однако, забывать о том, что выбранный нами инновационный путь создаёт предпосылки качественно новых шагов для системы масштабного изменения ряда параметров? Дорогие друзья, дальнейшее развитие различных форм деятельности играет важную роль в формировании системы масштабного изменения ряда параметров. Значимость этих проблем настолько очевидна, что реализация намеченного плана развития требует от нас анализа экономической целесообразности принимаемых решений.",
+      "date": "15.05.2021",
+      "writer": {
+        "userName": ":fycfz",
+        "avatarUrl": "https://source.unsplash.com/random/100x103"
+      },
+      "personId": 1,
+      "saved": [
+        0,
+        2,
+        1
+      ],
+      "likes": [
+        2
+      ]
+    },
+    {
+      "title": "ррррр",
+      "text": "ррпролд",
+      "date": "16.09.2021",
+      "writer": {
+        "userName": "Равным образом",
+        "avatarUrl": "https://source.unsplash.com/random/100x103"
+      },
+      "personId": 1,
+      "saved": [
+        0,
+        1
+      ],
+      "likes": [],
+      "id": 3
+    },
+    {
+      "title": "wwww",
+      "text": "fdsfsdfdsfdf",
+      "date": "23.11.2021",
+      "writer": {
+        "userName": "the Checking",
+        "avatarUrl": "https://source.unsplash.com/random/100x103"
+      },
+      "personId": 1,
+      "saved": [
+        0,
+        2
+      ],
+      "likes": [
+        1
+      ],
+      "id": 4
+    },
+    {
+      "title": "ннггн",
+      "text": "нншгншнш",
+      "date": "10.12.2021",
+      "writer": {
+        "userName": "cables network",
+        "avatarUrl": "https://source.unsplash.com/random/100x104"
+      },
+      "personId": 2,
+      "saved": [
+        0,
+        2
+      ],
+      "likes": [
+        2
+      ],
+      "id": 6
+    },
+    {
+      "title": "errrrr rrdd rrrrrrrrrrrrrrr rrrrrrrrrrrrrrr",
+      "text": "eeee eeeeeee eeeeee eeeee eeeee eeeeeee eeeeee eeeee",
+      "date": "5.01.2022",
+      "writer": {
+        "userName": "cables network",
+        "avatarUrl": "https://source.unsplash.com/random/100x104"
+      },
+      "personId": 2,
+      "saved": [
+        0,
+        2
+      ],
+      "likes": [
+        2
+      ],
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "newsId": 1,
+      "date": "15.09.2021",
+      "text": "Равным образом дальнейшее развитие различных форм деятельности обеспечивает широкому кругу",
+      "user": {
+        "userName": "Равным образом",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 2
+      }
+    },
+    {
+      "id": 3,
+      "newsId": 1,
+      "date": "15.09.2021",
+      "text": "Практический опыт показывает, что рамки и место обучения кадров позволяет",
+      "user": {
+        "userName": "Равным образом",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      }
+    },
+    {
+      "newsId": 3,
+      "date": "17.09.2021",
+      "text": "jjjjj",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 6
+    },
+    {
+      "newsId": 3,
+      "date": "18.09.2021",
+      "text": "22\n",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 7
+    },
+    {
+      "newsId": 3,
+      "date": "18.09.2021",
+      "text": "jjj",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 8
+    },
+    {
+      "newsId": 3,
+      "date": "18.09.2021",
+      "text": "j\n",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 9
+    },
+    {
+      "newsId": 3,
+      "date": "18.09.2021",
+      "text": "ddd",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 10
+    },
+    {
+      "newsId": 1,
+      "date": "29.09.2021",
+      "text": "hjjk",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 11
+    },
+    {
+      "newsId": 1,
+      "date": "23.11.2021",
+      "text": "kkkkkkkkkk",
+      "user": {
+        "userName": "the",
+        "avatarUrl": "https://source.unsplash.com/random/100x103",
+        "userId": 1
+      },
+      "id": 12
+    },
+    {
+      "newsId": 4,
+      "date": "23.11.2021",
+      "text": "vcvcvcxvcxvcv",
+      "user": {
+        "userName": "cables",
+        "avatarUrl": "https://source.unsplash.com/random/100x104",
+        "userId": 2
+      },
+      "id": 13
+    },
+    {
+      "newsId": 6,
+      "date": "10.12.2021",
+      "text": "гшншншнш",
+      "user": {
+        "userName": "cables",
+        "avatarUrl": "https://source.unsplash.com/random/100x104",
+        "userId": 2
+      },
+      "id": 14
+    },
+    {
+      "newsId": 1,
+      "date": "28.12.2021",
+      "text": "hjklk",
+      "user": {
+        "userName": "cables",
+        "avatarUrl": "https://source.unsplash.com/random/100x104",
+        "userId": 2
+      },
+      "id": 15
+    }
+  ]
+}

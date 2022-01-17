@@ -1,0 +1,37 @@
+.today {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  &-head {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-date {
+    font-weight: 600;
+  }
+  &-rollUp {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      margin-right: 5px;
+    }
+  }
+  &-body {
+    &__items {
+      margin: 15px 0;
+    }
+    &__item{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 10px;
+        margin: 10px 0;
+    }
+  }
+}
+.today-chevron {
+  transform: rotate(180deg);
+}

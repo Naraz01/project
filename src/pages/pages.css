@@ -1,0 +1,46 @@
+.today {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.today-head {
+  display: flex;
+  justify-content: space-between;
+}
+.today-date {
+  font-weight: 600;
+}
+.today-rollUp {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.today-rollUp svg {
+  margin-right: 5px;
+}
+.today-body__items {
+  margin: 15px 0;
+}
+.today-body__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+  margin: 10px 0;
+}
+
+.today-chevron {
+  transform: rotate(180deg);
+}
+
+.companies {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=pages.css.map */

@@ -1,0 +1,55 @@
+.common {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #cabfc1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: black;
+  margin-bottom: 20px;
+  &-friends {
+    color: #58ad39;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  &-photo {
+    width: 50px;
+    height: 50px;
+    img {
+      border-radius: 20%;
+      display: block;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  &-text {
+    &__name {
+      font-weight: 600;
+    }
+    &__direction {
+      font-weight: 500;
+    }
+  }
+  &-btn {
+    box-shadow: 0 2px 1px rgb(0 0 0 / 5%);
+    box-sizing: border-box;
+    background-color: #437cce;
+    border: 1px solid rgba(0,0,0,.15);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    svg {
+      padding-right: 10px;
+      color: white;
+    }
+    span {
+      font-weight: 500;
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.search {
+  margin: 0 20px;
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8a8082;
+    width: 300px;
+    max-width: 300px;
+    outline: none;
+    cursor: pointer;
+    background-color: #faeff2;
+    &::placeholder {
+      color: #3a3636;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    &:focus {
+      border: 1px solid #3a3636;
+      background-color: #ffffff;
+    }
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+}

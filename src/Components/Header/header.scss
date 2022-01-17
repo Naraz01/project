@@ -1,0 +1,17 @@
+.header {
+  background-color: #feebef;
+  padding: 10px 20px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-left {
+    display: flex;
+    align-items: center;
+  }
+}
+@import "./../Logo/logo";
+@import "./../Search/search";
+@import "./../NewEntry/NewEntry";
+@import "./../ToComeIn/ToComeIn";

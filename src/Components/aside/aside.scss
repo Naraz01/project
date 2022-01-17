@@ -1,0 +1,28 @@
+.aside {
+  padding-top: 20px;
+}
+.nav {
+  &-item {
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      span {
+        padding-left: 10px;
+      }
+    }
+
+    &__active {
+      background-color: white;
+      border-radius: 10px;
+    }
+    &:hover {
+      background-color: white;
+      border-radius: 10px;
+    }
+  }
+}
